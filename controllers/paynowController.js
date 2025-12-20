@@ -1,5 +1,6 @@
 const paynowService = require('../services/paynowService');
 const { protect, authorize } = require('../middlewares/auth');
+const PayNowTransaction = require('../models/PayNowTransaction');
 
 class PayNowController {
   /**
